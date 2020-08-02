@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <livewire:styles>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
 </head>
 <body class="font-sans bg-gray-900 text-white">
@@ -20,7 +21,7 @@
                     </a>
                 </li>
                 <li class="md:ml-16">
-                    <a href="#" class="hover:text-gray-380 mt-3 md:mt-0">Movies</a>
+                    <a href="{{ route('index') }}" class="hover:text-gray-380 mt-3 md:mt-0">Movies</a>
                 </li>
                 <li class="md:ml-6">
                     <a href="#" class="hover:text-gray-380 mt-3 md:mt-0">TV Shows</a>

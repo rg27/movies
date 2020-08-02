@@ -7,7 +7,7 @@ use Livewire\Component;
 
 class SearchDropdown extends Component
 {
-    public $search= ' ';
+    public $search= '';
 
     public function render()
     {
