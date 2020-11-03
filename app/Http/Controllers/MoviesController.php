@@ -31,13 +31,6 @@ class MoviesController extends Controller
             return [$genre['id']=>$genre['name']];
         });
 
-        // dump($nowPlayingMovies);
-
-        // return view('index',[
-        //     'popularMovies'=>$popularMovies,
-        //     'genres' =>$genres,
-        //     'nowPlayingMovies'=>$nowPlayingMovies,
-        // ]);
 
         $viewModel = new MoviesViewModel(
             $popularMovies,

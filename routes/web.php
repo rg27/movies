@@ -23,3 +23,6 @@ Route::view('/movie', 'show');
 
 Route::get('/','MoviesController@index')->name('index');
 Route::get('/movies/{movie}','MoviesController@show')->name('movies.show');
+
+
+Route::get('/people','PeopleController@index');
